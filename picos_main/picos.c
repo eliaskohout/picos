@@ -1,14 +1,18 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
-
+#include "pico/stdio.h"
 
 
 int main()
 {
     stdio_init_all();
 
-    while (true) {
-        printf("Hello, world!\n");
-        sleep_ms(1000);
+    char name[100];
+    while (true)
+    {
+        printf("> ");
+        scanf("%s", name);
+
+        printf("Hallo, %s!\n", name);
     }
 }
