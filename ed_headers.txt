@@ -1,0 +1,24 @@
+POSIX
+---
+
+ctype.h
+errno.h
+limits.h
+locale.h
+regex.h
+setjmp.h
+signal.h
+stddef.h
+stdio.h
+stdlib.h
+string.h
+sys/stat.h
+sys/types.h
+unistd.h
+
+
+NOT POSIX
+---
+
+sys/file.h
+sys/ioctl.h -> https://pubs.opengroup.org/onlinepubs/9699919799/nframe.html

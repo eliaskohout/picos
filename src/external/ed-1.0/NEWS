@@ -1,0 +1,5 @@
+Changes in version 1.0:
+
+The option "--program-prefix" has been added to the configure script.
+
+A buffer overflow has been fixed.
