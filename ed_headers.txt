@@ -21,4 +21,4 @@ NOT POSIX
 ---
 
 sys/file.h
-sys/ioctl.h -> https://pubs.opengroup.org/onlinepubs/9699919799/nframe.html
+sys/ioctl.h
